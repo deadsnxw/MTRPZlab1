@@ -21,6 +21,14 @@ object Program {
         }
     }
 
+    fun Char.isPunctuation(): Boolean {
+        val punctuationSet = setOf('.', ',', ';', ':', '!', '?', '-', '_', '"', '\'',
+            '(', ')', '[', ']', '{', '}', '/', '\\', '|',
+            '<', '>', '~', '`', '@', '#', '$', '%', '^', '&', '*')
+        return this in punctuationSet
+    }
+
+
     private fun filePath() {
         println("Enter the path to the text file:\nExample: \"C:\\Documents\\Super Secret\\file.md\"")
         val filePath = readLine() ?: ""
