@@ -1,7 +1,7 @@
-###Program projective
+### Program projective
 Program converts .md files into .html files with saving punctuation
 
-###Check for java and kotlin
+### Check for java and kotlin
 First, you need to check if Kotlin Compiler and JDK (Java Development Kit) are installed.
 ```
   java -version
@@ -14,7 +14,7 @@ next you need to search for "Edit the system environment variables" > go to the 
 
 Done ! All installed.
 
-###Build and run
+### Build and run
 Download Main.kt file from converter/src
 Open CMD
 ```
@@ -23,5 +23,5 @@ Open CMD
 ```
 After the first command you will get a .jar file and the second command will run program.
 
-###Usage
+### Usage
 Enter path to your .md file and program will convert .md file into .html file in same directory
